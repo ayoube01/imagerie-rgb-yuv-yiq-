@@ -1,0 +1,33 @@
+image=imread('100.jpg')
+R=image(:,:,1)
+R=R(:)
+%x = 0:20:250;
+%subplot(2,2,1);
+
+%h=hist(R,x) 
+%h=h/sum(h)
+% bar(h, 'DisplayName', 'Travel Distance'); 
+% legend('show');
+
+G=image(:,:,2);
+G=G(:);
+%x = 0:20:250;
+%subplot(2,2,2);
+%h=hist(G,x) 
+%h=h/sum(h)
+% bar(h, 'DisplayName', 'Travel Distance'); 
+%  legend('show');
+
+B=image(:,:,3)
+B=B(:);
+%x = 0:20:250;
+%subplot(2,2,3);
+%h=hist(B,x) 
+h=h/sum(h)
+ bar(h, 'DisplayName', 'Travel Distance'); 
+  legend('show');
+
+
+
+ 
+ 

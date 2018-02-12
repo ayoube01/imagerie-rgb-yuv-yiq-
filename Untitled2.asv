@@ -1,0 +1,17 @@
+image=imread('100.jpg');
+%image1=rgbtonrgb2(image);
+%image2=III_inv(image1);
+%image3=III(image);
+%figure (1),imshow(image1);
+%figure(2),imshow(image1);
+%figure(3),imshow(image2);
+%image3=rgb2gray2(image);
+%image4=rgb2gray3(image);
+%figure,imshow(image1);
+%figure,imshow(image2);
+hist(image)
+
+
+%figure,imshow(image4);
+%figure,imshow(image3);
+%figure,imshow(image2);
